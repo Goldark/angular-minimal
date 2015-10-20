@@ -1,0 +1,14 @@
+<div class="container">
+  <message text="dummy.message"></message>
+
+  <div ng-controller="FilterController">
+    <input ng-model="greeting" type="text" />
+    <br />
+    No filter: {{greeting}}
+    <br />
+    Reverse: {{greeting|reverseFilter}}
+    <br />
+    Reverse + uppercase: {{greeting | reverseFilter:true}}
+    <br />
+  </div>
+</div>

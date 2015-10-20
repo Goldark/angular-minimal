@@ -1,0 +1,10 @@
+{
+  "dev": [
+    "./libs/bootstrap/dist/css/bootstrap.css",
+    "./libs/font-awesome/css/font-awesome.css"
+  ],
+  "dist": [
+    "./libs/bootstrap/dist/css/bootstrap.min.css",
+    "./libs/font-awesome/css/font-awesome.min.css"
+  ]
+}

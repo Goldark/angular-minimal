@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Minimal AngularJS Template</title>
+    <!-- inject:js -->
+    <script src="libs/angular/angular.js"></script>
+    <script src="libs/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="libs/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="libs/angular-local-storage/dist/angular-local-storage.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/routes.js"></script>
+    <script src="scripts/controllers.js"></script>
+    <script src="scripts/factories.js"></script>
+    <script src="scripts/services.js"></script>
+    <script src="scripts/directives.js"></script>
+    <script src="scripts/filters.js"></script>
+    <script src="scripts/templates.js"></script>
+    <!-- endinject -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <!-- endinject -->
+  </head>
+  <body ng-app="app">
+    <div ui-view></div>
+  </body>
+</html>

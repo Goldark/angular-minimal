@@ -1,0 +1,14 @@
+{
+	"dev": [
+    "./libs/angular/angular.js",
+    "./libs/angular-ui-router/release/angular-ui-router.js",
+    "./libs/angular-bootstrap/ui-bootstrap-tpls.js",
+    "./libs/angular-local-storage/dist/angular-local-storage.js"
+  ],
+  "dist": [
+    "./libs/angular/angular.min.js",
+    "./libs/angular-ui-router/release/angular-ui-router.min.js",
+    "./libs/angular-bootstrap/ui-bootstrap-tpls.min.js",
+    "./libs/angular-local-storage/dist/angular-local-storage.min.js"
+  ]
+}

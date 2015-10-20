@@ -1,0 +1,32 @@
+{
+  "name": "angular-minimal-template",
+  "version": "1.0.0",
+  "authors": [
+    "Leonardo Rossetti <leonardo@goldark.com.br>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "libs",
+    "test",
+    "tests",
+    "spec"
+  ],
+  "dependencies": {
+    "angular": "~1.4.4",
+    "angular-bootstrap": "~0.13.3",
+    "angular-local-storage": "~0.2.2",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0"
+  },
+  "devDependencies": {
+    "angular": "~1.4.4",
+    "angular-bootstrap": "~0.13.3",
+    "angular-local-storage": "~0.2.2",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}
