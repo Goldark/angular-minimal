@@ -157,7 +157,7 @@ gulp.task('inject-dist', function () {
     }
   };
   var injectJSFiles = ['./dist/scripts/vendor.min.js', './dist/scripts/main.min.js', './dist/scripts/templates.js'];
-  var injectCSSFiles = ['./dist/styles/*.css'];
+  var injectCSSFiles = ['./dist/styles/vendor.min.css', './dist/styles/main.min.css'];
   gulp
     .src('./src/index.html')
     .pipe(inject(gulp.src(injectJSFiles, srcConfig), injectConfig))
