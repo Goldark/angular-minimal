@@ -1,4 +1,4 @@
-# Angular Template
+# Angular Minimal
 
 Angular template for small applications (uses bootstrap).
 
