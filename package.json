@@ -8,13 +8,15 @@
   "license": "MIT",
   "description": "Minimal angular template with gulp and bootstrap",
   "keywords": [
-    "yeoman-generator"
+    "angular",
+    "spa",
+    "app template"
   ],
   "files": [
     "app"
   ],
   "dependencies": {
-    "yeoman-generator": "^0.20.3"
+    
   },
   "devDependencies": {
     "gulp": "^3.9.0",
